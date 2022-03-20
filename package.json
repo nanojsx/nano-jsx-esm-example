@@ -1,0 +1,25 @@
+{
+  "name": "nano-jsx-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack -c webpack.client.cjs && webpack -c webpack.server.cjs",
+    "serve": "node dist/server.bundle.js"
+  },
+  "keywords": [],
+  "author": "Yannick Deubel (https://github.com/yandeu)",
+  "license": "MIT",
+  "devDependencies": {
+    "resolve-typescript-plugin": "^1.1.5",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.7.0-dev.20220319",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "nano-jsx": "^0.0.30"
+  }
+}
