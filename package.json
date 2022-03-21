@@ -15,7 +15,7 @@
   "devDependencies": {
     "resolve-typescript-plugin": "^1.1.5",
     "ts-loader": "^9.2.8",
-    "typescript": "^4.7.0-dev.20220319",
+    "typescript": "^4.6.2",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
     "webpack-node-externals": "^3.0.0"
