@@ -7,6 +7,12 @@ let child,
   errors = 0
 const PORT = 3000
 
+// timeout
+setTimeout(() => {
+  console.log('error: timeout')
+  process.exit(2)
+}, 10_000)
+
 const wait = ms => new Promise(resolve => setTimeout(() => resolve(), ms))
 
 const killChildProcess = () => {
@@ -54,6 +60,7 @@ const main = async () => {
 
   console.log('errors: ', errors)
   if (errors !== 0) process.exit(1)
+  else process.exit(0)
 }
 
 main()
