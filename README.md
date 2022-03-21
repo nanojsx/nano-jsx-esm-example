@@ -7,3 +7,7 @@ npm run build
 
 npm run serve
 ```
+
+## Comments
+
+- `--experimental-specifier-resolution=node` is needed, otherwise Node.js can't resolve `"jsxImportSource": "nano-jsx/esm"`.

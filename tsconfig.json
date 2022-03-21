@@ -3,9 +3,8 @@
     "rootDir": "src",
     "outDir": "tmp",
 
-    "jsx": "react",
-    "jsxFactory": "h",
-    "jsxFragmentFactory": "Fragment",
+    "jsx": "react-jsx",
+    "jsxImportSource": "nano-jsx/esm",
 
     "moduleResolution": "node",
     "target": "ES2020",

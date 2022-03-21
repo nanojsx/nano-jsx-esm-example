@@ -1,5 +1,3 @@
-import { h } from 'nano-jsx/esm/index.js'
-
 export const Hello = () => {
   const isBrowser = typeof window !== 'undefined'
 
