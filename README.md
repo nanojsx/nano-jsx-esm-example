@@ -11,3 +11,4 @@ npm run serve
 ## Comments
 
 - `--experimental-specifier-resolution=node` is needed, otherwise Node.js can't resolve `"jsxImportSource": "nano-jsx/esm"`.
+- `resolve-typescript-plugin` is needed, otherwise Webpack can't resolve `.js` files inside a `.ts` file.
