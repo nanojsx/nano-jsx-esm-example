@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "webpack -c webpack.client.cjs && webpack -c webpack.server.cjs",
-    "serve": "node --experimental-specifier-resolution=node dist/server.bundle.js"
+    "serve": "node --experimental-specifier-resolution=node dist/server.bundle.js",
+    "test": "node test/simple.test.mjs"
   },
   "keywords": [],
   "author": "Yannick Deubel (https://github.com/yandeu)",
