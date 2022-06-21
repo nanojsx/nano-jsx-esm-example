@@ -21,6 +21,6 @@
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
-    "nano-jsx": "^0.0.30"
+    "nano-jsx": "^0.0.32"
   }
 }
