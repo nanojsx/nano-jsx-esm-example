@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Install Puppeteer
-        run: npm install puppeteer@13
+        run: npm install puppeteer@14
 
       - name: Build Packages
         run: npm run build
