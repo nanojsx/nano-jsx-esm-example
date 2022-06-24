@@ -1,9 +1,9 @@
-const path = require('path')
-const ResolveTypeScriptPlugin = require('resolve-typescript-plugin')
-const nodeExternals = require('webpack-node-externals')
+import path from 'path'
+import ResolveTypeScriptPlugin from 'resolve-typescript-plugin'
+import nodeExternals from 'webpack-node-externals'
 
 // see: https://github.com/nrwl/nx/issues/7872#issuecomment-997460397
-module.exports = {
+export default {
   mode: 'production',
   entry: './src/server/index.js',
   externalsPresets: {
@@ -11,7 +11,7 @@ module.exports = {
   },
   output: {
     filename: 'server.bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve('dist'),
     module: true,
     libraryTarget: 'module',
     chunkFormat: 'module',
