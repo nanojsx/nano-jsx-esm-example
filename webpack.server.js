@@ -12,13 +12,10 @@ export default {
   output: {
     filename: 'server.bundle.js',
     path: path.resolve('dist'),
-    module: true,
-    libraryTarget: 'module',
     chunkFormat: 'module',
-    library: {
-      type: 'module'
-    },
+    module: true,
     environment: {
+      dynamicImport: true,
       module: true
     }
   },
